@@ -1,0 +1,178 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+    background: #F0F3FF;
+    width: 100%;
+    height: auto;
+    border: 1px solid #F0F3FF;
+}
+
+.main-container {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.main-content {
+    height: auto;
+    margin: 80px;
+    background: #fff;
+    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.12);
+    border-radius: 16px;
+    min-width: 360px;
+}
+
+.main-content p.title {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 66px;
+    color: #2E282C;
+}
+
+.top-page {
+    padding-left: 5%;
+    padding-top: 7%;
+}
+
+.concert-list-image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.concert-list-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.concert-list-item {
+    position: relative;
+    margin: 3% 1.5% 1.5% 3%;
+    width: 45%;
+}
+
+@media screen and (max-width: 1700px) {
+    .concert-list-container .concert-list-item {
+        width: 50%;
+    }
+
+    .main-container {
+        width: 90%;
+    }
+
+    .main-content {
+        margin: 40px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .concert-list-container .concert-list-item {
+        width: 50%;
+    }
+
+    .main-container {
+        width: 100%;
+    }
+
+    .main-content {
+        margin: 10px;
+    }
+}
+
+
+@media screen and (max-width: 763px) {
+
+
+    .select-cities {
+        margin-left: 1.7rem;
+    }
+    .concert-title{
+        font-size: 24px!important;
+    }
+    .concert-day{
+        font-size: 24px!important;
+    }
+    .title{
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .concert-list-container .concert-list-item {
+        width: 100%;
+    }
+
+    .main-content {
+        margin: 20px;
+    }
+
+    .main-container {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 655px) {
+    .month-select{
+        margin-top: 1rem;
+    }
+
+}
+
+.concert-title {
+    position: absolute;
+    bottom: 11%;
+    left: 7%;
+    color: #fff;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 66px;
+}
+
+.concert-day {
+    position: absolute;
+    top: 11%;
+    left: 7%;
+    color: #fff;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 6px;
+    font-size: 48px;
+    padding: 5px 12px;
+}
+
+.top-page-filter {
+    display: flex;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.city-select, .month-select {
+    margin-right: 20px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 33px;
+}
+
+.select-cities, .select-month {
+    width: 200px;
+    height: 50px;
+    border: 1px solid #444444;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+.massage-body {
+    font-size: 16px;
+    margin: 50px;
+    color: #000;
+    padding: 20px 50px 20px 50px;
+    border-color: #f5c6cb;
+    background-color: #f8d7da;
+    border-radius: 10px;
+}

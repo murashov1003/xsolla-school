@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Задание 4 - Верстка макета</title>
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/loader.css">
+
+</head>
+<body>
+<div class="main">
+
+    <!--begin Loader-->
+    <div class="loader-wrapper" id="loader-1">
+        <div id="loader"></div>
+    </div>
+    <!--end Loader-->
+<div class="main-container">
+    <div class="main-content">
+        <div class="top-page">
+            <p class="title">Event Listing</p>
+            <div class="top-page-filter">
+                <div class="city-select">
+                    <p class="title-select"></p>
+                    <label class="label">City:</label>
+                    <select class="select-cities">
+                        <option class="option" value="All">All</option>
+                        <option class="option" value="Amsterdam">Amsterdam</option>
+                        <option class="option" value="Berlin">Berlin</option>
+                        <option class="option" value="Rim">Rim</option>
+                        <option class="option" value="Sr.Petersburg">Sr.Petersburg</option>
+                        <option class="option" value="123">Sr.123</option>
+                    </select>
+
+                </div>
+                <div class="month-select">
+                    <p class="title-select"></p>
+                    <label class="label">Month:</label>
+                    <select class="select-month">
+                        <option class="option" value="All">All</option>
+                        <option class="option" value="January">January</option>
+                        <option class="option" value="February">February</option>
+                        <option class="option" value="March">March</option>
+                        <option class="option" value="April">April</option>
+                        <option class="option" value="May">May</option>
+                        <option class="option" value="June">June</option>
+                        <option class="option" value="July">July</option>
+                        <option class="option" value="August">August</option>
+                        <option class="option" value="September">September</option>
+                        <option class="option" value="October">October</option>
+                        <option class="option" value="November">November</option>
+                        <option class="option" value="December">December</option>
+                    </select>
+
+                </div>
+            </div>
+        </div>
+        <div class="concert-list-container">
+            <div class="massage-body" hidden></div>
+        </div>
+    </div>
+</div>
+</div>
+</body>
+<script src="js/events.js"></script>
+<script src="js/moment-with-locales.min.js"></script>
+<script src="js/index.js"></script>
+</html>
+
