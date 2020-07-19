@@ -57,7 +57,7 @@
 
 @media screen and (max-width: 1700px) {
     .concert-list-container .concert-list-item {
-        width: 50%;
+        width: 100%;
     }
 
     .main-container {
@@ -71,7 +71,7 @@
 
 @media screen and (max-width: 1024px) {
     .concert-list-container .concert-list-item {
-        width: 50%;
+        width: 100%;
     }
 
     .main-container {
